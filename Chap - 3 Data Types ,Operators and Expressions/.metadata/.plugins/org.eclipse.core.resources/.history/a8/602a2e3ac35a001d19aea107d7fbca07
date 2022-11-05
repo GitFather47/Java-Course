@@ -1,0 +1,13 @@
+
+public class AutoboxExample {
+	public Integer add(Integer x, Integer y ) {
+		return  x+ y;
+	}
+
+	public static void main(String[] args) {
+		AutoboxExample example = new AutoboxExample();
+		// TODO Auto-generated method stub
+
+	}
+
+}

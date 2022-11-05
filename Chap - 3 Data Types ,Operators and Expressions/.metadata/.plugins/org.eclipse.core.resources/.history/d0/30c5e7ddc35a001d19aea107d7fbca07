@@ -1,0 +1,13 @@
+
+public class AutoboxingExample {
+	public Integer add(Integer x, Integer y ) {
+		return  x+ y;
+	}
+
+	public static void main(String[] args) {
+		AutoboxingExample example = new AutoboxingExample();
+		// TODO Auto-generated method stub
+
+	}
+
+}

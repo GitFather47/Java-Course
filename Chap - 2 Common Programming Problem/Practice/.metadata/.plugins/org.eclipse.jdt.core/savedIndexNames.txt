@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+F:\Coding\Java\Bazlur\Chap - 2 Common Programming Problem\Practice\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1899136611.index
+2752596399.index
+1118832346.index
+498308380.index
+3686356832.index
+901199436.index
