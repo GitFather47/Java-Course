@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class cToF {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter temperature in celsius: ");
+		double c = input.nextDouble();
+		double meters = inch * 0.0254;
+		
+		System.out.println(inch+" inch is " +meters+" meters ");
+		// TODO Auto-generated method stub
+
+	}
+
+}

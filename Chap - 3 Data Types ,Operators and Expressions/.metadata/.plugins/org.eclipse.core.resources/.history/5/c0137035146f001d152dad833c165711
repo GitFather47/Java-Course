@@ -1,0 +1,27 @@
+
+public class intAndFloatPointDivision {
+
+	public static void main(String[] args) {
+		//Int point division
+		System.out.println(4+5);
+		System.out.println(4 - 5);
+		System.out.println(4 - 5 * 9);
+		System.out.println(3 / 7);
+		
+		//Floating Point Division
+		System.out.println(3 / 7.0);//This one correct
+		System.out.println(59 * 100 / 60.0);
+		
+		double y = 1 / 3;
+		System.out.println(y);//Incorrect 'cause oparand is int.
+		double z = 1/3.0;/*Correct
+		or double z = 1.0/3;
+		*/
+		System.out.println(z);
+		//ROUNDING ERROR!!!
+		System.out.println(0.1+0.10+0.10+0.10+0.10+0.10+0.10+0.10+0.10+0.1);
+		// TODO Auto-generated method stub
+
+	}
+
+}

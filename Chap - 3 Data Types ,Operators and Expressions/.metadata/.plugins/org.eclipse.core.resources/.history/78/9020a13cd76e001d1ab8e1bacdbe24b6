@@ -1,0 +1,15 @@
+
+public class quadraticEquationSolver {
+
+	public static void main(String[] args) {
+		//Eq.: 2x^2+5x-3=0
+		int a = 2;
+		int b = 5;
+		int c = - 3;
+		double determinant = b*b -4.0*a*c;
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

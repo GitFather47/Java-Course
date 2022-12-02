@@ -1,0 +1,16 @@
+
+public class ArithmaticDemo {
+
+	public static void main(String[] args) {
+		int result = 1 +2;
+		System.out.println("1 + 2 = " + result);
+		int r2= result;
+		
+		result = result -1;
+		System.out.println(r2 + "-1 = "+result);
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

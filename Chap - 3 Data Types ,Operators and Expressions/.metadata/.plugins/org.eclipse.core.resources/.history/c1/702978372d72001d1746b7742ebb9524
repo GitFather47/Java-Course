@@ -1,0 +1,14 @@
+
+public class Negation {
+
+	public static void main(String[] args) {
+		boolean isTrue = true;
+		boolean isFalse = !isTrue;
+		System.out.println("isTrue" + isTrue);
+		System.out.println("isFalse" + isFalse);
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

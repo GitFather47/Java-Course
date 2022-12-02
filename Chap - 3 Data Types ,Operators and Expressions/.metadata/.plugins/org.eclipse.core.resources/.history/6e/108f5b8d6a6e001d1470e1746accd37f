@@ -1,0 +1,32 @@
+
+public class ArithmaticDemo {
+
+	public static void main(String[] args) {
+		int result = 1 +2;
+		//Addition
+		System.out.println("1 + 2 = " + result);
+		int r2= result;
+		
+		//Substraction
+		result = result -1;//Reassgining Value
+		System.out.println(r2 + "-1 = "+result);
+		r2=result;
+		
+		//Multification
+		result=result * 2;
+		System.out.println(r2+"x2 = "+result);
+		r2=result;
+		//Dividation
+		result=result / 2;
+		System.out.println(r2+"/2 = "+result);
+		r2=result;
+		
+		//Modulus(Returns Remainder)
+		result=result % 3;
+		System.out.println(r2+"x2"+result);
+		r2=result;
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,26 @@
+//
+public class quadraticEquationSolver {
+
+	public static void main(String[] args) {
+		//Eq.: 2x^2+5x-3=0
+		int a = 2;
+		int b = 5;
+		int c = - 3;
+		//D=determinant
+		double D = b*b -4.0*a*c;
+		
+		if (D > 0.0) {
+			double root1= (-b - Math.sqrt(D)) / (2.0 * a);
+			double root2= (-b + Math.sqrt(D)) / (2.0 * a);
+			System.out.println("The roots = "+ root1 + " , " +root2);
+		}else if (D == 0.0){
+		    double root = b /(2.0*a);
+		    System.out.println("The root = "+ root);
+		}else {
+			System.out.println("No root");
+		}
+		// TODO Auto-generated method stub
+
+	}
+
+}

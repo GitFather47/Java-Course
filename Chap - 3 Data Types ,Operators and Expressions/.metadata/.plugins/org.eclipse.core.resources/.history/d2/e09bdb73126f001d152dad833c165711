@@ -1,0 +1,18 @@
+
+public class intAndFloatPointDivision {
+
+	public static void main(String[] args) {
+		//Int point division
+		System.out.println(4+5);
+		System.out.println(4 - 5);
+		System.out.println(4 - 5 * 9);
+		System.out.println(3 / 7);
+		
+		//Floating Point Division
+		System.out.println(3 / 7.0);//This one correct
+		System.out.println(59 * 100 / 60.0);
+		// TODO Auto-generated method stub
+
+	}
+
+}
