@@ -1,0 +1,16 @@
+
+public class ExperssionSolver {
+
+	public static void main(String[] args) {
+		int i =Integer.MAX_VALUE;
+		System.out.println("The largest value that an Integer can hold is: "+ i);
+		
+		int y=5;
+		double z = y * y + 2 + Math.random();
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

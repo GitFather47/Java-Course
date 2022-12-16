@@ -1,0 +1,22 @@
+
+public class ExperssionSolver {
+
+	public static void main(String[] args) {
+		int i =Integer.MAX_VALUE;
+		System.out.println("The largest value that an Integer can hold is: "+ i);
+		
+		int j=5;
+		double k = j * j + 2 + Math.random();
+		System.out.println(k);
+		int m=5;
+		int n = 6;
+		int l = 9 ;
+		int expre1= (m+n)/2-l;//-4
+		int expre2= (m+n)/2-l;//-1
+		System.out.println(expre1);
+		System.out.println(expre2);
+		// TODO Auto-generated method stub
+
+	}
+
+}

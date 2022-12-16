@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;equalityExercise&apos; to &apos;equalityExercise2&apos;&#x0D;&#x0A;- Original project: &apos;Checking Bigger or smaller number 2&apos;&#x0D;&#x0A;- Original element: &apos;equalityExercise&apos;&#x0D;&#x0A;- Renamed element: &apos;equalityExercise2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;equalityExercise&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{equalityExercise.java[equalityExercise" matchStrategy="1" name="equalityExercise2" qualified="false" references="true" similarDeclarations="false" stamp="1669898116474" textual="false" version="1.0"/>
+</session>

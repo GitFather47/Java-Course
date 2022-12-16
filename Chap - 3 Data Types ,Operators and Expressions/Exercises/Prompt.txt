@@ -1,0 +1,63 @@
+//1
+public class Main {
+    public static void main(String[] args) {
+        // Create a Scanner object
+        Scanner scanner = new Scanner(System.in);
+        // Prompt the user to enter an input
+        System.out.println("Enter an input: ");
+        // Read the input
+        String input = scanner.nextLine();
+        // Check if input is a number
+        if (input.matches("[0-9]+")) {
+            System.out.println("Input is a number");
+        }
+        // Check if input is a letter
+        else if (input.matches("[a-zA-Z]+")) {
+            System.out.println("Input is a letter");
+        }
+        // Check if input is a special character
+        else if (input.matches("[^a-zA-Z0-9]+")) {
+            System.out.println("Input is a special character");
+        }
+        // If none of the conditions match, print an error message
+        else {
+            System.out.println("Error: Invalid input!");
+        }
+    }
+}
+
+//2
+import java.util.Scanner;
+
+public class InputChecker {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Please enter a character: ");
+        char input = scanner.next().charAt(0);
+
+        if (Character.isDigit(input)) {
+            System.out.println("You entered a number!");
+        } else if (Character.isLetter(input)) {
+            System.out.println("You entered a letter!");
+        } else {
+            System.out.println("You entered a special character!");
+        }
+    }
+}
+//3
+public class CheckInputType {
+    public static void main(String[] args) {
+        char input = '#';
+
+        if (Character.isDigit(input)) {
+            System.out.println("Input is a number");
+        } else if (Character.isAlphabetic(input)) {
+            System.out.println("Input is a letter");
+        } else {
+            System.out.println("Input is a special character");
+        }
+    }
+}

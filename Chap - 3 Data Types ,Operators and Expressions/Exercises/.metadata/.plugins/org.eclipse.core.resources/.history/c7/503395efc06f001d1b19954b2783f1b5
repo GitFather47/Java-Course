@@ -1,0 +1,18 @@
+
+public class stringDemo {
+//Concatenating strings
+	public static void main(String[] args) {
+		String heisenberg1 = "Guess I got what I deserved\nKept you waiting there too long, my love\n";
+		String heisenberg2 ="All that time, without a word\nDid you really think that I'd forget\n";
+		String heisenberg3 ="And I regret\nThe special love I have for you\nMy baby blue";
+		
+		String danger = heisenberg1 + heisenberg2 +heisenberg3;
+		String name ="Jessie";
+		System.out.println(name +" We need to cook");
+		System.out.println("\n");
+		System.out.println(danger);
+		// TODO Auto-generated method stub
+
+	}
+
+}

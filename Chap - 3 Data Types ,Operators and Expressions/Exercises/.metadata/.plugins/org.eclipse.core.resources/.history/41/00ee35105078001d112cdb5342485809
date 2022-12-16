@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class MoneyConversion {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter amount in BDT: ");
+		int BDT = input.nextInt();
+		System.out.println("Exc");
+		// TODO Auto-generated method stub
+
+	}
+
+}

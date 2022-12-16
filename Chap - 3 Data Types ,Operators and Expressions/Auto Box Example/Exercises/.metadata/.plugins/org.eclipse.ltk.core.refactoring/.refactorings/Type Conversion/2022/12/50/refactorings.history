@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;typeCasting&apos; to &apos;primitiveConversion&apos;&#x0D;&#x0A;- Original project: &apos;Type Conversion&apos;&#x0D;&#x0A;- Original element: &apos;typeCasting&apos;&#x0D;&#x0A;- Renamed element: &apos;primitiveConversion&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;typeCasting&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{typeCasting.java[typeCasting" matchStrategy="1" name="primitiveConversion" qualified="false" references="true" similarDeclarations="false" stamp="1670227683304" textual="false" version="1.0"/>
+</session>

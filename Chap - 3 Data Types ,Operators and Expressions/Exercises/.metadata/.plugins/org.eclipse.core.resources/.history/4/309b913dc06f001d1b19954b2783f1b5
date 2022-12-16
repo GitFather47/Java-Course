@@ -1,0 +1,14 @@
+
+public class stringDemo {
+
+	public static void main(String[] args) {
+		String heisenberg1 = "Guess I got what I deserved\nKept you waiting there too long, my love";
+		String heisenberg2 ="All that time, without a word\nDid you really think that I'd forget";
+		String heisenberg3 ="And regret\r\n"
+				+ "The special love I have for you\r\n"
+				+ "My baby blue"
+		// TODO Auto-generated method stub
+
+	}
+
+}

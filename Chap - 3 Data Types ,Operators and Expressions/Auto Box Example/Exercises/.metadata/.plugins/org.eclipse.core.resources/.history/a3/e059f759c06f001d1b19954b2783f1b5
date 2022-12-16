@@ -1,0 +1,15 @@
+
+public class stringDemo {
+
+	public static void main(String[] args) {
+		String heisenberg1 = "Guess I got what I deserved\nKept you waiting there too long, my love\n";
+		String heisenberg2 ="All that time, without a word\nDid you really think that I'd forget";
+		String heisenberg3 ="And regret\nThe special love I have for you\nMy baby blue";
+		
+		String danger = heisenberg1 + heisenberg2 +heisenberg3;
+		System.out.println(danger);
+		// TODO Auto-generated method stub
+
+	}
+
+}

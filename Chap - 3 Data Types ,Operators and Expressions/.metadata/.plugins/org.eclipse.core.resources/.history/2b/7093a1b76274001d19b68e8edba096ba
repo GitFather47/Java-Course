@@ -1,0 +1,16 @@
+
+public class swapVariables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 22;
+		int y = 23;
+		
+		x = x ^ y;
+		
+		System.out.println("x " + x);
+		System.out.println("y "+ y);
+
+	}
+
+}

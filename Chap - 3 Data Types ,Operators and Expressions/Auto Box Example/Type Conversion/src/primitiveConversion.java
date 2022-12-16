@@ -1,0 +1,36 @@
+
+public class primitiveConversion {
+
+	public static void main(String[] args) {
+		int x = 9_999_999;
+		int y = 99_999_999;
+		long z = x * (long) y;//Casting 'cause overflow
+		System.out.println("z = "+z);
+		/*Widening Primitive Conversion
+		 * small -->big
+	     */
+		int anInt1 = 100;
+		long aLong1 = anInt1;//No casting
+		float aFloat = aLong1;//No Casting
+		System.out.println("Int : " + anInt1);
+		System.out.println("Long : "+ aLong1);
+		System.out.println("Float : "+ aFloat);
+		/*Narrowing Primitive Conversion /Type Casting
+		 * small -->big
+	     */
+		double aDouble = 56.25;
+		long aLong2 = (long)aDouble;//casting
+		int anInt2 = (int) aLong2;//No Casting
+		System.out.println("Double : " +aDouble );
+		System.out.println("Long : "+ aLong2);
+		System.out.println("Int : "+ anInt2);
+		//Data Loss(Narrow Primitive Conversion Test)
+		long l = 1_233_720_377_5807L;
+		System.out.println("Long Value : "+ l);
+		int i = (int) l;
+		System.out.println("After Narrowing Primitive Conversion: "+i);
+		// TODO Auto-generated method stub
+
+	}
+
+}

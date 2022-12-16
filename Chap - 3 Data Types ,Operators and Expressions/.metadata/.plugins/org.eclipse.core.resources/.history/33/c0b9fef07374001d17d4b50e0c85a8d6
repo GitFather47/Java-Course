@@ -1,0 +1,13 @@
+
+public class typeCasting {
+
+	public static void main(String[] args) {
+		int x = 9_999_999;
+		int y = 99_999_999;
+		long z = x * (long) y;
+		System.out.println("z = "+z);
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+
+public class primitiveConversion {
+
+	public static void main(String[] args) {
+		int x = 9_999_999;
+		int y = 99_999_999;
+		long z = x * (long) y;//Casting 'cause overflow
+		System.out.println("z = "+z);
+		//Widening Primitive Conversion
+	     
+		int anInt = 100;
+		long aLong = anInt;
+		float aFloat = aLong;
+		System.out.println("Int : " + anInt);
+		System.out.println("Long : "+ aLong);
+		System.out.println("Float : "+ aFloat);
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class leapYearProgram {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter a year = ");
+		int ye = input.nextInt();
+		if ((ye % 4 == 0 && !(ye% 100 == 0) )|| ye%400==0) {
+			System.out.println(ye + " Is a leap year");
+		}
+		else {
+			System.out.println(ye + " Is not a leap year");
+		}
+		// TODO Auto-generated method stub
+
+	}
+
+}

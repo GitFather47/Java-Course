@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+F:\Coding\Frontend and Backend\Java\Bazlur\Chap - 3 Data Types ,Operators and Expressions\Exercises\.metadata\.plugins\org.eclipse.jdt.core
+2802570625.index
+1865797976.index
+3174467335.index
+4069460412.index
+839349791.index
+3387315658.index
+1091331731.index
+4123552910.index
