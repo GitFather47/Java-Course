@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+F:\Coding\Frontend and Backend\Java\Bazlur\Projects\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1877549606.index
+2159027629.index

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Month to Days Converter&apos; to &apos;Month to Days Converter(Switch Expressions)&apos;&#x0D;&#x0A;- Original element: &apos;Month to Days Converter&apos;&#x0D;&#x0A;- Renamed element: &apos;Month to Days Converter&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Month to Days Converter&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Month to Days Converter" name="Month to Days Converter(Switch Expressions)" references="true" stamp="1671466258518" version="1.0"/>
+</session>

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class RandyGameDo {
+
+	public static void main(String[] args) {
+		int num = 15;
+		Scanner input = new Scanner(System.in);
+		int player;
+		do {
+			System.out.println("Guess a number: ");
+			player =input.nextInt();
+			if (player == num) {//==in boolean
+				System.out.println("Congrats.You're Inevitable.");
+			} else if(player<num){
+				System.out.println("Nope,Try somthing bigger");
+			}
+			else {
+				System.out.println("Nope,Try Something Smaller");
+			}while(player!=num);
+			
+		}
+		}
+	
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void calculate()&apos; from &apos;Picalculator.main(...)&apos; to &apos;Picalculator&apos;&#x0D;&#x0A;- Original project: &apos;Pi Calculator&apos;&#x0D;&#x0A;- Method name: &apos;calculate&apos;&#x0D;&#x0A;- Destination type: &apos;Picalculator&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;calculate&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{Picalculator.java" name="calculate" replace="false" selection="78 228" stamp="1671775794053" version="1.0" visibility="1"/>
+</session>

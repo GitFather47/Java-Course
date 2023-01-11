@@ -1,0 +1,33 @@
+import java. util.Scanner;
+import java. lang.Math;
+public class RandyGame {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Guess the number(1-100): ");
+		int guess = input.nextInt();
+		int number = (int)(Math.random()*100);
+		int attempts=0;
+		while (true) {
+			if (guess==number) {
+				System.out.println("Yup!You're correct.You're invitable.");
+				System.out.println("Attempts: "+attempts);
+				break;
+			}
+			else if(guess<number) {
+				System.out.println("Nope!Try something smaller");
+				attempts +=1;
+				break;
+			}
+			else if(guess>number) {
+				System.out.println("Nope!Try something bigger");
+				attempts +=1;
+				break;
+			}
+		}
+			
+		// TODO Auto-generated method stub
+
+	}
+
+}

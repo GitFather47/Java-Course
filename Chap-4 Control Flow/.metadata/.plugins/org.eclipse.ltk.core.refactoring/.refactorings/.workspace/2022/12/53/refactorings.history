@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Rectangle in Circle&apos; to &apos;Rectangle in Circle(Unfinished)&apos;&#x0D;&#x0A;- Original element: &apos;Rectangle in Circle&apos;&#x0D;&#x0A;- Renamed element: &apos;Rectangle in Circle&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Rectangle in Circle&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Rectangle in Circle" name="Rectangle in Circle(Unfinished)" references="true" stamp="1672247289762" version="1.0"/>
+</session>
