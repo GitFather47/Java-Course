@@ -1,0 +1,24 @@
+Flight No: 123
+Pilot Name: asd
+Arrival Time: 123
+Departure Time: 34
+Flying From: 34
+Flying To: ujh
+Class: hjb
+-----------------------------
+Flight No: 12
+Pilot Name: Juman
+Arrival Time: 12:00
+Departure Time: 12:00
+Flying From: Kathmundu
+Flying To: Kolkata
+Class: Business
+-----------------------------
+Flight No: 12
+Pilot Name: Ad
+Arrival Time: 12
+Departure Time: 12
+Flying From: as
+Flying To: fd
+Class: d
+-----------------------------

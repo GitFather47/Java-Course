@@ -1,0 +1,98 @@
+To implement a seat plan with a particular flight number and integrate it with the existing code, you can make the following modifications:
+
+1. Add a new method called `reserveSeat` in the `Flight` class. This method will take the flight number, passenger name, and seat number as parameters.
+
+   ```java
+   public void reserveSeat(String flightNo, String passengerName, int seatNumber) {
+       // Check if the flight number exists in flights.txt
+       // If it exists, update the seat array with the passenger name at the specified seat number
+       // Decrease the seat count for that flight number
+   }
+   ```
+
+2. Modify the `saveFlightInfoToFile` method to save the seat count for each flight number in the flights.txt file.
+
+   ```java
+   public void saveFlightInfoToFile() {
+       FileWriter writer;
+       try {
+           writer = new FileWriter("flights.txt", true); // Append mode
+           writer.write("Flight No: " + flightNo + "\n");
+           writer.write("Pilot Name: " + pilotName + "\n");
+           writer.write("Arrival Time: " + arrivalTime + "\n");
+           writer.write("Departure Time: " + departureTime + "\n");
+           writer.write("Flying From: " + from + "\n");
+           writer.write("Flying To: " + to + "\n");
+           writer.write("Class: " + flightClass + "\n");
+           writer.write("Seat Count: " + seatCount + "\n"); // Add seat count information
+           writer.write("-----------------------------\n");
+           writer.close();
+           JOptionPane.showMessageDialog(null, "Flight information saved to file successfully!");
+       } catch (IOException io) {
+           System.out.println("An error occurred while saving flight information to file.");
+           io.printStackTrace();//To know the erroneous line
+       }
+   }
+   ```
+
+3. Modify the `showFlightInfoToFile` method to display the seat count for each flight number.
+
+   ```java
+   public void showFlightInfoToFile() {
+       FileReader reader;
+       BufferedReader br = null;
+       try {
+           File file = new File("flights.txt");
+           if (file.exists()) {
+               reader = new FileReader(file);
+               br = new BufferedReader(reader);
+               StringBuilder flightInfo = new StringBuilder(); // Use StringBuilder to accumulate flight information
+               String line;
+               while ((line = br.readLine()) != null) {
+                   flightInfo.append(line).append("\n");
+               }
+               // Show flight information in a GUI message dialog
+               JOptionPane.showMessageDialog(null, flightInfo.toString());
+           } else {
+               System.out.println("File not found: flights.txt");
+           }
+       } catch (IOException io) {
+           System.err.println("IOException: Error while reading flight information from file.");
+       } finally {
+           try {
+               if (br != null) {
+                   br.close();
+               }
+           } catch (IOException e) {
+               System.err.println("IOException: Error while closing BufferedReader");
+           }
+       }
+   }
+   ```
+
+4. Update the `install` method to add a new button for seat reservation. When the button is clicked, it will prompt the user to enter the flight number, passenger name, and seat number.
+
+   ```java
+   JButton reserveSeatButton = new JButton("Reserve Seat");
+   reserveSeatButton.setBounds(100, 230, 120, 25);
+   reserveSeatButton.addActionListener(new ActionListener() {
+       public void actionPerformed(ActionEvent e) {
+           String flightNo = flightNoField.getText();
+           String passengerName = passengerNameField.getText();
+           int seatNumber = Integer.parseInt(seatNumberField.getText());
+
+           reserveSeat(flightNo, passengerName, seatNumber);
+           frameIn.dispose(); // Close the window after reserving the seat
+       }
+   });
+   panelIn.add(reserveSeatButton);
+   ```
+
+5. Finally, update the main method or any other relevant code to handle the seat reservation logic. You can prompt the user to enter the flight number, passenger name, and seat number, and call the `reserveSeat` method to reserve the seat.
+
+   ```java
+   Flight flight = new Flight();
+   flight.install();
+   ```
+
+By implementing these modifications, you will be able to create seats for a particular flight number and reserve seats for passengers.

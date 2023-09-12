@@ -1,0 +1,4 @@
+E:\Class\Summer 2nd semester\OOP1\Class\Project\Airline management system\GUI\
+FlyUSA/mainFrame/AppFrame
+javac FlyUSA/mainFrame/AppFrame.java
+java FlyUSA/mainFrame/AppFrame

@@ -1,0 +1,4 @@
+step -1 make every classes public
+step -2 Declare all packages .
+step -3 import classes
+step - 4 use cmd outside the main package

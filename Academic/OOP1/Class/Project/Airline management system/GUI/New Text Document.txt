@@ -1,0 +1,100 @@
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == buttonA) {
+              JFrame frameAdminCheck = new JFrame("Admin panel");
+        frameAdminCheck.setSize(600, 400);
+        frameAdminCheck.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frameAdminCheck.setLayout(new BorderLayout());
+        frameAdminCheck.setLocationRelativeTo(null);
+
+        JPanel panelAdminCheck = new JPanel();
+
+        JLabel adminNameLabel = new JLabel("User name:");
+        panelAdminCheck.add(adminNameLabel);
+
+        JTextField adminNameTextField = new JTextField(20);
+        panelAdminCheck.add(adminNameTextField);
+
+        JLabel passwordLabel = new JLabel("Password:");
+        panelAdminCheck.add(passwordLabel);
+
+        JPasswordField passField = new JPasswordField(20);
+        panelAdminCheck.add(passField);
+
+        JButton loginButton = new JButton("Login");
+        JButton createAccountButton = new JButton("Create an Account");
+
+        panelAdminCheck.add(loginButton);
+        panelAdminCheck.add(createAccountButton);
+
+
+            loginButton.addActionListener(new ActionListener() {
+                public void actionPerformed(ActionEvent e) {
+                    String filePath = "E:/Class/Summer 2nd semester/OOP1/Class/Project/Airline management system/GUI/Admin.txt";
+                    String enteredUsername = adminNameTextField.getText();
+                    String enteredPassword = new String(passField.getPassword());
+                    BufferedReader reader = null;
+                    try {
+                        reader = new BufferedReader(new FileReader(filePath));
+                        String line;
+                        while ((line = reader.readLine()) != null) {
+                            String[] parts = line.split(":");
+                            if (parts.length == 2) {
+                                String username = parts[0].trim();
+                                String password = parts[1].trim();
+                                if (username.equals(enteredUsername) && password.equals(enteredPassword)) {
+                                    if (reader != null) {
+                                        try {
+                                            reader.close();
+                                            JOptionPane.showMessageDialog(null, "Verified Successfully");
+                                            frameAdminCheck.dispose();
+                                                           frameAdmin.setTitle("Admin Panel");
+                    frameAdmin.setSize(350, 200);
+                    frameAdmin.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Close only this frame
+                    frameAdmin.setLocationRelativeTo(null);
+
+                    JButton buttonInstall = new JButton("Install Flight");
+                    buttonInstall.setAlignmentX(Component.CENTER_ALIGNMENT);
+                    buttonInstall.addActionListener(new ActionListener() {
+                        public void actionPerformed(ActionEvent e) {
+                            flight[p] = new Flight();
+                            flight[p].install();
+                        }
+                    });
+                    panelAdmin.add(buttonInstall);
+
+                    JButton buttonShow = new JButton("Show all flights");
+                    buttonShow.setAlignmentX(Component.CENTER_ALIGNMENT);
+                    buttonShow.addActionListener(new ActionListener() {
+                        public void actionPerformed(ActionEvent e) {
+                            for (int p = 0; p < flight.length; p++) {
+                                if (flight[p] == null) {
+                                    JOptionPane.showMessageDialog(null, "No flights installed");
+                                } else {
+                                    flight[p].showFlightInfoToFile();
+                                    break;
+                                }
+                            }
+                        }
+                    });
+                    panelAdmin.add(buttonShow);
+                    frameAdmin.add(panelAdmin);
+                    frameAdmin.setVisible(true);
+                                        } catch (IOException ex) {
+                                            ex.printStackTrace();
+                                        }
+                                    }
+                                } else {
+                                    JOptionPane.showMessageDialog(null, "Wrong UserName");
+                                }
+                            }
+                        }
+                        reader.close();
+                    } catch (IOException ex) {
+                        ex.printStackTrace();
+                    }
+                }
+            });
+
+            // Existing code...
+        }

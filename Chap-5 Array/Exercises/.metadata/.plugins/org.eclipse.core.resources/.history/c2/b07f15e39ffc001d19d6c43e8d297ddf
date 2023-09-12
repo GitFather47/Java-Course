@@ -1,0 +1,15 @@
+
+public class countryQuiz {
+
+	public static void main(String[] args) {
+		String[][] countries={
+				{"United States","Washinton DC","Dollar","English"},
+				{"United Kindom","London","Euro","English"},
+				{"Japan","Tokyo","Euro","Japanese"}
+				
+		};
+		// TODO Auto-generated method stub
+
+	}
+
+}

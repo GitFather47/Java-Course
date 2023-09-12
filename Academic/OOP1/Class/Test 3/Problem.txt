@@ -1,0 +1,62 @@
+Scenario: Online Shopping Cart
+
+You are tasked with implementing an online shopping cart system in Java. The system should support adding products to the cart, removing products from the cart, calculating the total price of the cart, and checking out the cart. You need to demonstrate the use of Object-Oriented Programming (OOP) principles, associations, and arrays in your solution.
+
+Here's a description of the main classes and their functionalities:
+
+1. Product:
+   - This class represents a product available for purchase.
+   - Each product has a name, price, and quantity.
+   - Include appropriate getters and setters.
+
+2. ShoppingCart:
+   - This class represents the shopping cart.
+   - It contains an array of products that have been added to the cart.
+   - Include methods to add a product, remove a product, calculate the total price, and display the cart's content.
+
+3. Customer:
+   - This class represents a customer who is shopping online.
+   - It has a name and a shopping cart associated with it.
+   - Include appropriate getters and setters.
+
+4. OnlineShop:
+   - This is the main class that demonstrates the interaction between the other classes.
+   - It should have a list of available products that customers can add to their shopping cart.
+   - Implement a method to show the available products for customers to choose from.
+   - Implement a method to allow customers to add products to their cart, remove products from their cart, calculate the total price of their cart, and checkout.
+
+Here's a basic structure of the classes:
+
+```java
+class Product {
+    private String name;
+    private double price;
+    private int quantity;
+
+    // Constructor, getters, setters, etc.
+}
+
+class ShoppingCart {
+    private Product[] products;
+
+    // Constructor, methods to add, remove, calculate total price, and display cart contents.
+}
+
+class Customer {
+    private String name;
+    private ShoppingCart cart;
+
+    // Constructor, getters, setters, etc.
+}
+
+class OnlineShop {
+    private Product[] availableProducts;
+    private Customer[] customers;
+
+    // Constructor, method to show available products, allow customers to interact, etc.
+}
+```
+
+In this scenario, you can demonstrate OOP principles like encapsulation, abstraction, inheritance (if needed), and polymorphism (if applicable). You'll also utilize associations between classes, as customers have a shopping cart, and the online shop has a list of available products and customers. Additionally, you'll use arrays to manage multiple products in the cart and multiple customers in the online shop.
+
+Remember, this is just a basic outline, and you can further expand and optimize the classes and methods to make the system more complete and efficient.
