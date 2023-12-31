@@ -1,0 +1,76 @@
+Transcation Date : Opening Balance
+Transcation type : 
+Amount(USD)     : 0
+----------------------------------------
+Transcation Date : 2023-03-25 09.29 a.m.
+Transcation type : Cr
+Amount(USD)     : 150
+----------------------------------------
+Transcation Date : 2023-03-25 09.29 a.m.
+Transcation type : Dr
+Amount(USD)     : 50
+----------------------------------------
+Transcation Date : 2023-03-25 09.29 a.m.
+Transcation type : Cr
+Amount(USD)     : 250
+----------------------------------------
+Transcation Date : 2023-03-25 09.29 a.m.
+Transcation type : Dr
+Amount(USD)     : 50
+----------------------------------------
+Transcation Date : 2023-03-25 09.29 a.m.
+Transcation type : Dr
+Amount(USD)     : 50
+----------------------------------------
+Transcation Date : 2023-03-25 09.29 a.m.
+Transcation type : Dr
+Amount(USD)     : 50
+----------------------------------------
+Transcation Date : 2023-03-25 09.36 a.m.
+Transcation type : Dr
+Amount(USD)     : 10
+----------------------------------------
+Transcation Date : 2023-04-10 11.15 a.m.
+Transcation type : Cr
+Amount(USD)     : 200
+----------------------------------------
+Transcation Date : 2023-05-02 08.45 a.m.
+Transcation type : Dr
+Amount(USD)     : 75
+----------------------------------------
+Transcation Date : 2023-06-15 03.20 p.m.
+Transcation type : Cr
+Amount(USD)     : 300
+----------------------------------------
+Transcation Date : 2023-07-21 10.30 a.m.
+Transcation type : Dr
+Amount(USD)     : 100
+----------------------------------------
+Transcation Date : 2023-08-05 09.00 a.m.
+Transcation type : Cr
+Amount(USD)     : 150
+----------------------------------------
+Transcation Date : 2023-09-12 02.45 p.m.
+Transcation type : Dr
+Amount(USD)     : 50
+----------------------------------------
+Transcation Date : 2023-10-18 12.10 p.m.
+Transcation type : Cr
+Amount(USD)     : 400
+----------------------------------------
+Transcation Date : 2023-11-01 07.55 a.m.
+Transcation type : Dr
+Amount(USD)     : 25
+----------------------------------------
+Transcation Date : 2023-12-05 04.30 p.m.
+Transcation type : Cr
+Amount(USD)     : 275
+----------------------------------------
+Transcation Date : 2023-01-20 09.20 a.m.
+Transcation type : Dr
+Amount(USD)     : 80
+----------------------------------------
+Transcation Date : Closing Balance
+Transcation type : 
+Amount(USD)     : 190
+----------------------------------------

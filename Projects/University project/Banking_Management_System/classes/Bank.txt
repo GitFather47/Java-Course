@@ -1,0 +1,200 @@
+Acc: 117816
+MICR_NO: 7144
+Acc_Type: Savings
+Name: Arnob
+Gender: Male
+Mobile: +1 123-456-7890
+Address: 123 New Street, Anytown, NY, 10001
+----------------------------
+Acc: 233456
+MICR_NO: 8978
+Acc_Type: Savings
+Name: Tarifush
+Gender: Male
+Mobile: +1 234-567-8901
+Address: 456 Oak Avenue, Springfield, CA, 90001
+----------------------------
+Acc: 876543
+MICR_NO: 9085
+Acc_Type: Current
+Name: Nafiz
+Gender: Male
+Mobile: +1 345-678-9012
+Address: 789 Maple Lane, Brookville, TX, 70001
+----------------------------
+Acc: 987654
+MICR_NO: 9084
+Acc_Type: Current
+Name: Laden
+Gender: Male
+Mobile: +1 456-789-0123
+Address: 987 Pine Street, Rivertown, FL, 60001
+----------------------------
+Acc: 908745
+MICR_NO: 6078
+Acc_Type: Current
+Name: Muaz
+Gender: Male
+Mobile: +1 567-890-1234
+Address: 654 Elm Street, Lakeside, WA, 30001
+----------------------------
+Acc: 406784
+MICR_NO: 2390
+Acc_Type: Savings
+Name: Pulok
+Gender: Male
+Mobile: +1 678-901-2345
+Address: 321 Birch Road, Hillcrest, CA, 90001
+----------------------------
+Acc: 234567
+MICR_NO: 7654
+Acc_Type:Savings
+Name: Emma
+Gender: Female
+Mobile: 415-555-0192
+Address: 123 Oak Street, San Francisco, CA
+----------------------------
+Acc: 987654
+MICR_NO: 3421
+Acc_Type: Savings
+Name: Nathan
+Gender: Male
+Mobile: 212-555-8374
+Address: 456 Maple Avenue, New York, NY
+----------------------------
+Acc: 345678
+MICR_NO: 9087
+Acc_Type: Current
+Name: Ava
+Gender: Female
+Mobile: 312-555-6245
+Address: 789 Pine Road, Chicago, IL
+----------------------------
+Acc: 876543
+MICR_NO: 5678
+Acc_Type: Current
+Name: Jack
+Gender: Male
+Mobile: 713-555-9821
+Address: 567 Elm Street, Houston, TX
+----------------------------
+Acc: 456789
+MICR_NO: 2345
+Acc_Type: Savings
+Name: Olivia
+Gender: Female
+Mobile: 650-555-3478
+Address: 90 Cedar Lane, Los Angeles, CA
+----------------------------
+Acc: 765432
+MICR_NO: 7890
+Acc_Type: Current
+Name: Liam
+Gender: Male
+Mobile: 305-555-4613
+Address: 234 Birch Avenue, Miami, FL
+----------------------------
+Acc: 987123
+MICR_NO: 6543
+Acc_Type: Savings
+Name: Sophia
+Gender: Female
+Mobile: 206-555-7326
+Address: 321 Willow Street, Seattle, WA
+----------------------------
+Acc: 321987
+MICR_NO: 4321
+Acc_Type: Current
+Name: Noah
+Gender: Male
+Mobile: 917-555-2084
+Address: 432 Oak Lane, New York, NY
+----------------------------
+Acc: 876231
+MICR_NO: 7899
+Acc_Type: Current
+Name: Isabella
+Gender: Female
+Mobile: 214-555-5991
+Address: 876 Pine Avenue, Dallas, TX
+----------------------------
+Acc: 111222
+MICR_NO: 9876
+Acc_Type: Savings
+Name: Ava
+Gender: Female
+Mobile: 212-555-1234
+Address: 789 Oak Street, New York, NY, 10001
+----------------------------
+Acc: 333444
+MICR_NO: 5678
+Acc_Type: Current
+Name: James
+Gender: Male
+Mobile: 713-555-5678
+Address: 456 Maple Avenue, Houston, TX, 77001
+----------------------------
+Acc: 555666
+MICR_NO: 2345
+Acc_Type: Savings
+Name: Emily
+Gender: Female
+Mobile: 650-555-7890
+Address: 890 Cedar Lane, Los Angeles, CA, 90001
+----------------------------
+Acc: 777888
+MICR_NO: 8765
+Acc_Type: Current
+Name: Ethan
+Gender: Male
+Mobile: 305-555-2345
+Address: 234 Birch Avenue, Miami, FL, 33101
+----------------------------
+Acc: 999000
+MICR_NO: 5432
+Acc_Type: Current
+Name: Mia
+Gender: Female
+Mobile: 206-555-9012
+Address: 321 Willow Street, Seattle, WA, 98101
+----------------------------
+Acc: 101112
+MICR_NO: 7890
+Acc_Type: Savings
+Name: Noah
+Gender: Male
+Mobile: 917-555-3456
+Address: 432 Oak Lane, New York, NY, 10001
+----------------------------
+Acc: 131415
+MICR_NO: 3210
+Acc_Type: Current
+Name: Lily
+Gender: Female
+Mobile: 214-555-6789
+Address: 876 Pine Avenue, Dallas, TX, 75201
+----------------------------
+Acc: 161718
+MICR_NO: 8901
+Acc_Type: Savings
+Name: Lucas
+Gender: Male
+Mobile: 415-555-2345
+Address: 789 Cedar Road, San Francisco, CA, 90001
+----------------------------
+Acc: 192021
+MICR_NO: 4321
+Acc_Type: Current
+Name: Grace
+Gender: Female
+Mobile: 312-555-7890
+Address: 654 Elm Street, Chicago, IL, 60001
+----------------------------
+Acc: 222324
+MICR_NO: 9876
+Acc_Type: Savings
+Name: Henry
+Gender: Male
+Mobile: 713-555-4567
+Address: 567 Elm Street, Houston, TX, 77001
+----------------------------

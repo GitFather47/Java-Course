@@ -1,0 +1,35 @@
+User: Arnob
+Name: Arnob Aich Anurag
+Account No:117816
+Available Balance(USD):160
+Amount:
+Total:160
+--------------------------
+User: Tarifush
+Name: Tarifush Sajid
+Account No: 234567
+Available Balance (USD): 200
+Amount:
+Total: 200
+--------------------------
+User: Nafiz
+Name: Nafiz Sadik
+Account No: 876543
+Available Balance (USD): 350
+Amount:
+Total: 350
+--------------------------
+User: Laden
+Name: Abu Bokor Siddik Laden
+Account No: 987654
+Available Balance (USD): 1000
+Amount:
+Total: 1000
+--------------------------
+User: Chris
+Name: Christopher Lee
+Account No: 345678
+Available Balance (USD): 75
+Amount:
+Total: 75
+--------------------------
